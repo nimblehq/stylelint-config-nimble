@@ -1,0 +1,33 @@
+{
+  "name": "@nimblehq/stylelint-config-nimble",
+  "version": "0.0.1",
+  "description": "Stylelint base configuration developed and maintained by Nimble",
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "stylelintplugin"
+  ],
+  "author": "Nimble",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "stylelint": "^14.6.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.6.1"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": "^14.18.2 || ^16 || ^17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimblehq/stylelint-config-nimble.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nimblehq/stylelint-config-nimble/issues"
+  },
+  "homepage": "https://github.com/nimblehq/stylelint-config-nimble"
+}
