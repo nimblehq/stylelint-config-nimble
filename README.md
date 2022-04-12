@@ -7,7 +7,7 @@
 The configurations are separated into dedicated packages:
 
 - [stylelint-config-nimble](/packages/stylelint-config-nimble): Base rules
-- [stylelint-config-nimble-css-modules](/packages/stylelint-config-nimble-css-modules): CSS modules rules <sub><sup>WIP</sup></sub>
+- [stylelint-config-nimble-css-modules](/packages/stylelint-config-nimble-css-modules): CSS modules rules <sub><sup>TODO</sup></sub>
 
 __Usage information is in the packages' documentation.__
 
