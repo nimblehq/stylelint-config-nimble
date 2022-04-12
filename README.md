@@ -6,7 +6,8 @@
 
 The configurations are separated into dedicated packages:
 
-- [stylelint-config-nimble](/packages/stylelint-config-nimble): Stylelint base rules
+- [stylelint-config-nimble](/packages/stylelint-config-nimble): Base rules
+- [stylelint-config-nimble-css-modules](/packages/stylelint-config-nimble-css-modules): CSS modules rules <sub><sup>WIP</sup></sub>
 
 __Usage information is in the packages' documentation.__
 
@@ -23,7 +24,7 @@ __Usage information is in the packages' documentation.__
 - The package name should have the following format: `@nimblehq/{package-name}`. This project is shareable configurations for [stylelint](https://stylelint.io/), the `{package-name}` should be `stylelint-config-nimble-*`:
 
 ```bash
-  lerna create @nimblehq/stylelint-config-nimble-react
+  lerna create @nimblehq/stylelint-config-nimble-css-modules
 ```
 
 ### Publish packages
