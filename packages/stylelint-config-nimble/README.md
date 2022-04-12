@@ -1,48 +1,27 @@
-# @nimblehq/eslint-config-nimble
+# `@nimblehq/stylelint-config-nimble`
 
-This package provides ESLint base rules
+This package provides Stylelint base rules
 
 ## Installation
 
 ```bash
-  npm install --save-dev @nimblehq/eslint-config-nimble
+  npm install --save-dev @nimblehq/stylelint-config-nimble
 ```
 
 ## Usage
 
-### Standalone
-
-Add `@nimblehq/eslint-config-nimble` to the extends section of your `.eslintrc` configuration file.
+Add `@nimblehq/stylelint-config-nimble` to the extends section of your `.stylelintrc.js` configuration file.
 
 ```js
 {
   "extends": [
-      "@nimblehq/eslint-config-nimble"
+      "@nimblehq/stylelint-config-nimble"
   ],
   "rules": {
     // Additional, per-project rules...
   }
 }
 ```
-
-### With a framework
-
-Similar to the process above, but usually it requires adding the extra rules for the JS framework:
-
-```js
-{
-  "extends": [
-      "@nimblehq/eslint-config-nimble",
-      "plugin:react/recommended",
-      "plugin:vue/recommended"
-  ],
-  "rules": {
-    // Additional, per-project rules...
-  }
-}
-```
-
-This would require defining the required dependencies in the project itself.
 
 ## License
 
