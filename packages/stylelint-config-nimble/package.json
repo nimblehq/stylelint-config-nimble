@@ -9,7 +9,8 @@
   ],
   "author": "Nimble",
   "main": "lib/index.js",
-  "devDependencies": {
+  "dependencies": {
+    "@nimblehq/eslint-config-nimble": "^2.3.0",
     "stylelint": "^14.6.1",
     "stylelint-config-property-sort-order-smacss": "^9.0.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
@@ -20,8 +21,11 @@
     "stylelint": "^14.6.1"
   },
   "scripts": {
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
     "stylelint": "stylelint '**/*.{css,scss}'",
-    "stylelint:fix": "stylelint '**/*.{css,scss}' --fix"
+    "stylelint:fix": "stylelint '**/*.{css,scss}' --fix",
+    "lint": "npm run eslint && npm run stylelint"
   },
   "license": "MIT",
   "directories": {
