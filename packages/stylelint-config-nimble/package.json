@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/stylelint-config-nimble",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Stylelint base configuration developed and maintained by Nimble",
   "keywords": [
     "stylelint",
