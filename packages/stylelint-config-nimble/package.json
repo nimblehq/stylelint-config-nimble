@@ -1,0 +1,45 @@
+{
+  "name": "@nimblehq/stylelint-config-nimble",
+  "version": "1.0.0",
+  "description": "Stylelint base configuration developed and maintained by Nimble",
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "stylelintplugin"
+  ],
+  "author": "Nimble",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@nimblehq/eslint-config-nimble": "^2.3.0",
+    "stylelint": "^14.6.1",
+    "stylelint-config-property-sort-order-smacss": "^9.0.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.6.1"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix",
+    "stylelint": "stylelint '**/*.{css,scss}'",
+    "stylelint:fix": "stylelint '**/*.{css,scss}' --fix",
+    "lint": "npm run eslint && npm run stylelint"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": "^14.18.2 || ^16 || ^17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimblehq/stylelint-config-nimble.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nimblehq/stylelint-config-nimble/issues"
+  },
+  "homepage": "https://github.com/nimblehq/stylelint-config-nimble"
+}
