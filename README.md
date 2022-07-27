@@ -29,13 +29,11 @@ __Usage information is in the packages' documentation.__
 
 ### Publish packages
 
-Use [`lerna publish`](https://github.com/lerna/lerna/tree/main/commands/publish#readme) command to publish packages.
+- Packages will be published to npmjs automatically after publishing a new release.
 
-```bash
-  lerna publish
-```
+- Need to set the version in `/packages/**/package.json` before creating the release.
 
-_The current branch that you run the publish command should be pushed on Github._
+- More details in [publish workflow](/.github/workflows/publish.yml). This workflow uses [`lerna publish`](https://github.com/lerna/lerna/tree/main/commands/publish#readme) command to publish packages.
 
 ### Run commands
 
