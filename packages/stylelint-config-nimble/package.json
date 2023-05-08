@@ -10,7 +10,7 @@
   "author": "Nimble",
   "main": "lib/index.js",
   "dependencies": {
-    "@nimblehq/eslint-config-nimble": "^2.3.0",
+    "@nimblehq/eslint-config-nimble-core": "^2.6.0",
     "stylelint": "^14.6.1",
     "stylelint-config-property-sort-order-smacss": "^9.0.0",
     "stylelint-config-sass-guidelines": "^9.0.1",
@@ -32,7 +32,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "^14.18.2 || ^16 || ^17"
+    "node": "^16 || ^17 || ^18"
   },
   "repository": {
     "type": "git",
