@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/stylelint-config-nimble",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Stylelint base configuration developed and maintained by Nimble",
   "keywords": [
     "stylelint",
@@ -32,7 +32,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "^16 || ^17 || ^18"
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
