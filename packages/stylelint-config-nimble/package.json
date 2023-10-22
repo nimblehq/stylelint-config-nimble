@@ -10,15 +10,12 @@
   "author": "Nimble",
   "main": "lib/index.js",
   "dependencies": {
-    "@nimblehq/eslint-config-nimble-core": "^2.6.0",
-    "stylelint": "^14.6.1",
-    "stylelint-config-property-sort-order-smacss": "^9.0.0",
-    "stylelint-config-sass-guidelines": "^9.0.1",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.2.0"
-  },
-  "peerDependencies": {
-    "stylelint": "^14.6.1"
+    "@nimblehq/eslint-config-nimble-core": "^2.7.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-property-sort-order-smacss": "^9.1.0",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^5.2.1"
   },
   "scripts": {
     "eslint": "eslint .",
