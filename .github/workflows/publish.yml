@@ -24,7 +24,7 @@ jobs:
           scope: "@nimblehq"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm ci && lerna bootstrap --ci
 
       - name: Publish packages to npmjs
         run: npx lerna publish from-package --yes --no-verify-access
